@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.insta-profile {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.profile-info h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #0073e6;
+}
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.highlight {
+    text-align: center;
+    font-size: 12px;
+}
+.highlight img {
+    width: 50px;
+    height: 50px;
+}
+.feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.card {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+.qr-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.qr-section img {
+    width: 100px;
+    height: 100px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #666;
+}
